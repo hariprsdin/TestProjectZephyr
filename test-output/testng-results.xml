@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30815" started-at="2018-07-27T06:04:42Z" finished-at="2018-07-27T06:05:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30815" started-at="2018-07-27T06:04:42Z" finished-at="2018-07-27T06:05:13Z">
+      <class name="Zephyr.Login">
+        <test-method status="PASS" signature="login()[pri:0, instance:Zephyr.Login@5419f379]" name="login" duration-ms="30775" started-at="2018-07-27T11:34:42Z" finished-at="2018-07-27T11:35:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- Zephyr.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
