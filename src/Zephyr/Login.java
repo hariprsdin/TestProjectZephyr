@@ -1,6 +1,7 @@
 package Zephyr;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
@@ -11,8 +12,10 @@ public class Login {
 public void login() throws Exception
 {
 		// TODO Auto-generated method stub
-    WebDriver driver = new FirefoxDriver();
+	System.setProperty("webdriver.chrome.driver", "D://SafetyFirst/chromedriver/chromedriver.exe");
+    WebDriver driver = new ChromeDriver();
 	driver.get("http://teammigrate:18080");
+	driver.manage().window().maximize();
 	System.out.println("Welcome to Jenkins");
 	Thread.sleep(3000);
 	
