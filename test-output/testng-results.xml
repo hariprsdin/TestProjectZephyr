@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18564" started-at="2018-07-30T05:38:29Z" finished-at="2018-07-30T05:38:48Z">
+  <suite name="Default suite" duration-ms="14339" started-at="2018-08-03T08:13:11Z" finished-at="2018-08-03T08:13:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18564" started-at="2018-07-30T05:38:29Z" finished-at="2018-07-30T05:38:48Z">
+    <test name="Default test" duration-ms="14339" started-at="2018-08-03T08:13:11Z" finished-at="2018-08-03T08:13:26Z">
       <class name="Zephyr.Login">
-        <test-method status="PASS" signature="login()[pri:0, instance:Zephyr.Login@7dc7cbad]" name="login" duration-ms="18552" started-at="2018-07-30T11:08:29Z" finished-at="2018-07-30T11:08:48Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:Zephyr.Login@7dc7cbad]" name="login" duration-ms="14324" started-at="2018-08-03T13:43:11Z" finished-at="2018-08-03T13:43:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->

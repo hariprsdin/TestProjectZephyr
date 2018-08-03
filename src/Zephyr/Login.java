@@ -17,7 +17,7 @@ public void login() throws Exception
 	driver.get("http://teammigrate:18080");
 	driver.manage().window().maximize();
 	System.out.println("Welcome to Jenkins");
-	Thread.sleep(3000);
+	Thread.sleep(2000);
 	
 	}
 
