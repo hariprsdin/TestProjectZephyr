@@ -16,7 +16,7 @@ public class Login {
 		driver.get("https://www.google.co.in/");
 		driver.manage().window().maximize();
 		System.out.println("Welcome to Jenkins");
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		driver.quit();
 	}
 }
