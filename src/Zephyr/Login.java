@@ -19,5 +19,4 @@ public class Login {
 		Thread.sleep(3000);
 		driver.quit();
 	}
-
 }
