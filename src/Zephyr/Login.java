@@ -8,18 +8,16 @@ import org.testng.annotations.Test;
 public class Login {
 
 	@Test
-	
-public void login() throws Exception
-{
+
+	public void login() throws Exception {
 		// TODO Auto-generated method stub
-	System.setProperty("webdriver.chrome.driver", "D://SafetyFirst/chromedriver/chromedriver.exe");
-    WebDriver driver = new ChromeDriver();
-	driver.get("https://www.google.co.in/");
-	driver.manage().window().maximize();
-	System.out.println("Welcome to Jenkins");
-	Thread.sleep(3000);
-	driver.quit();
-	
+		System.setProperty("webdriver.chrome.driver", "D://SafetyFirst/chromedriver/chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.google.co.in/");
+		driver.manage().window().maximize();
+		System.out.println("Welcome to Jenkins");
+		Thread.sleep(3000);
+		driver.quit();
 	}
 
 }
